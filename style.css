@@ -9,7 +9,7 @@ h1 {
     line-height: 1.2em;
 }
 h2{
-    font-size: 48px;
+    font-size: 54px;
     line-height: 1.2em;
 }
 p{
@@ -49,30 +49,59 @@ p{
     font-weight: 600;
     text-decoration: none;
     padding: 10px 24px;
-    background: #FFD200;
+    background: #fcc91b;
     display: inline-block;
 }
 .donate-amnt-sec {
+    background: #369FF4;
     display: flex;
     justify-content: center;
     margin: auto;
     padding: 75px 0px;
     text-align: center;
 }
-/* .donate-amnt-cont-btm, */
 .donate-static-amnt {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding-top: 30px;
+}
+.donate-amnt-sec h2,
+.donate-amnt-sec p {
+    color: #fff;
 }
 .donate-amnt a{
     display: inline-block;
     padding: 30px;
-    background-color: #ccc;
+    background-color: #2196f3;
     margin: 15px;
-    color: #000;
+    color: rgb(255 255 255);
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 16px #bbbbbb;
+}
+.donate-custom-amnt {
+    width: 360px;
+    margin: auto;
+}
+.donate-form input{
+    border-width: 0px;
+    outline: none;
+    font-size: 20px;
+}
+.donate-form input::placeholder {
+    color: #fff;
+}
+.donate-custom-amnt input[type="text"] {
+    width: 100%;
+    border-bottom: 1px solid #c1e0fe;
+    padding: 10px;
+    background: transparent;
+    text-align: center;
+    color: #fff !important;
+    margin: 30px 0px;
 }
