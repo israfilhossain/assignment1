@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    width: 80%;
+}
+.charity-fst-sec {
+    background-image: url(./images/pict_featured_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.banner-content{
+    max-width: 700px;;
+}
+.banner-content h1 {
+    font-size: 60px;
+    color: #fff;
+    /* text-align: center; */
+}
