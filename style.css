@@ -2,11 +2,20 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+/* common css */
+h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+p{
+    font-size: 18px;
+    line-height: 1.5em;
+}
 .container {
     width: 80%;
 }
-.charity-fst-sec {
-    background-image: url(./images/pict_featured_large.jpg);
+.donation-fst-sec {
+    background: linear-gradient(0deg, #8d8d8d5e, #6d6d6d57), url(./images/pict_featured_large.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -14,13 +23,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    text-align: center;
 }
 .banner-content{
-    max-width: 700px;;
+    max-width: 680px;
+    margin: auto;
 }
 .banner-content h1 {
-    font-size: 60px;
     color: #fff;
-    /* text-align: center; */
+    text-shadow: 0px 0px 20px #00000075;
+}
+.banner-content p {
+    color: #fff;
+    padding: 20px 0 40px;
+}
+.donate-btn {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 24px;
+    background: #FFD200;
+    display: inline-block;
 }
