@@ -1,10 +1,15 @@
 *{
     margin: 0;
+    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
 /* common css */
 h1 {
     font-size: 60px;
+    line-height: 1.2em;
+}
+h2{
+    font-size: 48px;
     line-height: 1.2em;
 }
 p{
@@ -20,6 +25,7 @@ p{
     background-size: cover;
     background-position: top center;
     min-height: 100vh;
+    padding: 75px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
