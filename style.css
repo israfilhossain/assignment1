@@ -21,6 +21,7 @@ p{
 .container {
     width: 85%;
     padding: 75px 0px;
+    margin: auto;
 }
 .donate-fst-sec {
     background: linear-gradient(0deg, #8d8d8d5e, #6d6d6d57), url(./images/pict_featured_large.jpg);
@@ -160,7 +161,7 @@ form.get-new-updates {
     max-width: 660px;
     background: #369FF4;
     margin: auto;
-    padding: 60px 50px;
+    padding: 60px 40px;
     border-radius: 12px;
 }
 .notify-email {
@@ -186,4 +187,17 @@ form.get-new-updates {
     background: #FCC91B;
     cursor: pointer;
     outline: none;
+}
+.footer-sec {
+    background: #293541;
+    text-align: center;
+    margin: auto;
+}
+.footer-sec .container {
+    padding: 30px 0px !important;
+}
+.copyright p {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
 }
