@@ -9,7 +9,7 @@ h1 {
     line-height: 1.2em;
 }
 h2{
-    font-size: 54px;
+    font-size: 52px;
     line-height: 1.2em;
     color: #4a4a4a;
 }
@@ -129,7 +129,7 @@ p{
     color: #4a4a4a;
 }
 .our-plan-boxes h3 {
-    font-size: 18px;
+    font-size: 20px;
     margin: 10px 0px;
 }
 .our-plan-boxes p {
@@ -143,4 +143,47 @@ p{
 }
 .education-box {
     background: #DCD4E3;
+}
+.get-updates-sec {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+form.get-new-updates {
+    display: flex;
+    width: 520px;
+    margin: auto;
+    align-items: center;
+}
+.get-updates-btm {
+    display: flex;
+    max-width: 660px;
+    background: #369FF4;
+    margin: auto;
+    padding: 60px 50px;
+    border-radius: 12px;
+}
+.notify-email {
+    width: 70%;
+}
+.subscribe-form-btn {
+    width: 30%;
+}
+.notify-email input[type="email"] {
+    width: 100%;
+    padding: 14px;
+    /* border-width: 2px 0px 2px 2px; */
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    outline: none;
+}
+.subscribe-form-btn input[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    /* border-width: 2px 2px 2px 0px; */
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    background: #FCC91B;
+    cursor: pointer;
+    outline: none;
 }
