@@ -24,7 +24,7 @@ p{
 }
 .container {
     width: 85%;
-    padding: 75px 0px;
+    padding: 70px 0px;
     margin: auto;
 }
 .donate-fst-sec {
@@ -54,7 +54,7 @@ p{
     text-align: center;
 }
 .short-des{
-    padding: 20px 0 40px;
+    padding: 15px 0 40px;
 }
 .donate-btn {
     color: #fff;
@@ -149,6 +149,28 @@ p{
 .education-box {
     background: #DCD4E3;
 }
+
+/* about us sec */
+.about-cont-wrap{
+    display: flex;
+    align-items: center;
+}
+.about-half-left{
+    width: 50%;
+    padding-right: 45px;
+}
+.about-half-right{
+    width: 50%;
+}
+.about-des {
+    padding: 20px 0 20px;
+}
+.about-half-right img {
+    width: 100%;
+}
+
+
+/* get-updates-sec */
 .get-updates-sec {
     display: flex;
     justify-content: center;
@@ -192,6 +214,8 @@ form.get-new-updates {
     cursor: pointer;
     outline: none;
 }
+
+/* footer-sec */
 .footer-sec {
     background: #293541;
     text-align: center;
