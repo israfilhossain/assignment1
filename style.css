@@ -42,6 +42,10 @@ p{
 .banner-cont p {
     color: #fff;
 }
+.sec-heading,
+.short-des{
+    text-align: center;
+}
 .short-des{
     padding: 20px 0 40px;
 }
@@ -66,7 +70,7 @@ p{
 .donate-amnt-sec p {
     color: #fff;
 }
-.donate-static-amnt {
+.wrap-boxes {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,7 +78,7 @@ p{
 }
 .donate-amnt a{
     display: inline-block;
-    padding: 30px;
+    padding: 24px 30px;
     margin: 15px;
     background-color: #22aef2;
     color: rgb(255 255 255);
@@ -84,7 +88,9 @@ p{
     border: 2px solid #fff;
     border-radius: 8px;
     box-shadow: 0 0 16px #bbbbbb;
+    transition: .5s;
 }
+.donate-amnt a:hover,
 .donate-amnt-active a{
     background-color: #fcc91b;
 }
@@ -108,4 +114,14 @@ p{
     text-align: center;
     color: #fff !important;
     margin: 30px 0px;
+}
+.donate-plan {
+    display: flex;
+    justify-content: center;
+}
+.our-plan-boxes {
+    width: 310px;
+    background: #ffe4e4;
+    margin: 15px;
+    padding: 30px;
 }
